@@ -32,5 +32,13 @@ A comparação dos modelos permitiu avaliar como a quantidade de neurônios e a 
 O projeto consolidou conhecimentos sobre preparação de dados, regressão supervisionada, redes neurais artificiais, ajuste de hiperparâmetros e avaliação de modelos de aprendizado de máquina.
 
 Conclui-se que a experimentação com diferentes arquiteturas é importante para identificar configurações mais adequadas a um problema. O melhor desempenho deve ser determinado pelos resultados efetivamente obtidos, e não apenas pela complexidade da rede neural.
+Os resultados mostram que a arquitetura MLP com 64 neurônios na camada oculta apresentou o melhor desempenho entre os quatro modelos testados.
+- MAE = 2,1837: erro absoluto médio de aproximadamente US$ 2.184, considerando que MEDV está expresso em milhares de dólares.
+- RMSE = 3,2901: raiz do erro quadrático médio de aproximadamente US$ 3.290.
+- R² = 0,8524: o modelo explicou aproximadamente 85,24% da variação dos valores observados no conjunto de teste.
+- 2.239 épocas: número de iterações realizadas durante o treinamento.
+O modelo de 64 neurônios apresentou erros menores e R² maior do que as demais arquiteturas. Isso demonstra que, neste experimento, uma camada oculta com 64 neurônios foi mais adequada do que as outras configurações avaliadas.
+
 
 **Observação:** a base Boston Housing possui limitações históricas e variáveis relacionadas a questões sociais sensíveis. Seus resultados devem ser interpretados como um exercício acadêmico, não como recomendação para avaliação imobiliária real ou tomada de decisões sobre pessoas e comunidades.
+
